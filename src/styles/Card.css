@@ -1,0 +1,26 @@
+.card {
+  background-color: #0b0f16;
+  display: grid;
+  grid-template-columns: 220px;
+  grid-template-rows: 240px 50px 100px;
+  grid-template-areas: "image" "title" "info";
+  margin: 5px 5px;
+}
+
+.card-image {
+  width: 307px;
+  grid-area: image;
+  background-size: cover;
+}
+
+.card-title {
+  grid-area: title;
+  padding: 5px 10px;
+}
+
+.card-info {
+  grid-area: info;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: gray;
+}

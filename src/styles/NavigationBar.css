@@ -1,0 +1,50 @@
+nav {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #1a2230;
+  color: white;
+}
+
+.logo {
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffff00;
+}
+
+.search-form {
+  width: 40vw;
+}
+
+#search {
+  border: 0;
+  width: 70%;
+  padding: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #0c1017;
+  background: #1a2230;
+  color: white;
+}
+
+#search:focus {
+  outline: none;
+}
+
+#search-button {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  background-color: #1a2230;
+  color: white;
+}
+
+.userlogo {
+  margin: 0 20px 0 0;
+  font-size: 1.5rem;
+  color: #ffff00;
+}
